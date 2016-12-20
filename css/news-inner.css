@@ -8,7 +8,7 @@ header .logo{width: 82px;height: 80px;background: url("../images/logo.jpg") no-r
 header .toRight-1{width: 100px;height: 100px;position: absolute;right: 0;bottom: 0;background: url("../images/topRight_01.jpg") no-repeat;}
 
 .news-inner{height: 574px;}
-.news-inner .left{width: 839px;height:574px;float: left;padding-right: 41px;position: relative;}
+.news-inner .left{width: 839px;height:574px;float: left;padding-right: 41px;position: relative;font-family: "宋体";}
 .news-inner .left h3{font-size: 28px;color:#34495e;margin-top: 24px;}
 .news-inner .left span{color:#c33d4d;font-size: 12px;margin-left: 25px;font-weight: normal;}
 .news-inner .left p{font-size: 14px;line-height: 18px;color:#34495e;}

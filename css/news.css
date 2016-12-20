@@ -2,7 +2,7 @@
 a{text-decoration: none;color:#26292a;}
 ul,li{list-style:none;}
 body{width: 89.5%;margin: 0 auto;}
-.news-list{height:515px;padding-top: 59px;}
+.news-list{height:515px;padding-top: 59px;font-family: "宋体"}
 .news-list li{width: 535px;float: left;height:396px;}
 .news-list ul .mid{border-left: 1px solid #dcdcdc;
     border-right: 1px solid #dcdcdc;margin: 0 21px;width: 545px;padding-left: 10px;}

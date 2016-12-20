@@ -2,7 +2,7 @@
  * Created by hxsd on 2016/12/9.
  */
 $(document).ready(function(){
-    $(".indexNav").find("li:first").css("opacity",0);
+    $(".indexNav").find("li:eq(4)").css("opacity",0);
     //var first=$(".indexContentNav").position();
     $(".indexNav").find("li").on('mouseover',function(){
 

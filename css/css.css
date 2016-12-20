@@ -30,7 +30,8 @@ a{ text-decoration: none}
 .ballBox .ball{ width: 129px; height: 53px; cursor: pointer; border: 2px solid #3f5664; border-radius: 50%; background: #3f5664; float: left; font: 20px/20px "微软雅黑"; text-align: center; padding: 40px 0; color: #fff; margin-right: 145px; position: relative}
 .ballBox .ball:last-child{ margin-right: 0;}
 .ballBox .ball p{ margin-top: 10px;}
-.ballBox .ball:hover{ color: #3f5664; background: #fff;}
-.ballBox .ball span{ position: absolute; left: 50%; top: 133px; width: 2px; height: 0; background: #405663; transition: ease 0.5s}
-.ballBox .ball:hover span{ height: 47px;}
+.ballBox .bgColor{ color: #3f5664; background: #fff;}
+.ballBox .ball span{ position: absolute; left: 50%; top: 133px; width: 2px; height: 0px; background: #405663;}
+.ballBox .ball .blue{ height: 47px}
+/*.ballBox .ball:hover .line{ height: 47px;}*/
 .bannerBox .desc{ font: 14px/22px "微软雅黑"; margin-top: 20px; padding-left: 26px;}

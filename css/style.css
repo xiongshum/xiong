@@ -25,5 +25,7 @@ footer .first_nav{height: 73px;position: absolute;left: 0;top: 9px;}
 footer .first_nav li{float: left;width: 144px;height: 73px;}
 footer .first_nav li p{line-height: 25px;padding-left: 2px;padding-top: 16px;font-size: 20px;color: #232323;font-weight: bold;}
 footer .first_nav li span{line-height: 17px;font-size: 15px;padding-left: 2px;color: #c23144;font-weight: bold;}
-footer .copyright{width: 500px;height: 44px;line-height: 44px;font-size: 14px;color: #232323;position: absolute;left: 0;top: 82px;font-weight: bold;}
-
+footer .copyright{height: 44px;line-height: 44px;font-size: 14px;color: #232323;position: absolute;left: 0;top: 82px;font-weight: bold;}
+footer .copyright span{line-height: 44px;padding-left: 25px;}
+footer .copyright .indexWeixin{display: block;width: 40px;height: 28px;float: right;background: url("../images/weixin.jpg") no-repeat;margin-top: 8px;cursor: pointer;}
+footer .copyright .indexWeibo{display:block;width: 34px;height: 28px;float: right;background: url("../images/weibo.jpg") no-repeat 0 4px;margin-top: 8px;margin-left: 15px;cursor: pointer;}

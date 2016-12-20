@@ -10,23 +10,26 @@ $(function(){
         var index=$(this).index();
         $(".movie_top>.work").eq(index).fadeIn()
     })
-    var i=true
+    var i=true;
     $(".qiehuan").on("click",function(){
         if(i){
-            $(".box").css("background-image","url('../images/haibao_02.jpg')")
+            $(".box").css("background-image","url('../images/haibao_02.jpg')");
             i=false
         }else {
-            $(".box").css("background-image","url('../images/haibao_01.jpg')")
+            $(".box").css("background-image","url('../images/haibao_01.jpg')");
             i=true
         }
-    })
-    $(".changeju>.juzhao").eq(0).show()
+    });
+    var juzhao=$(".changeju>.juzhao");
+    juzhao.eq(0).show();
+    juzhao.eq(1).hide();
     $(".juzhaoqiehuan li").on("click",function(){
         $(".juzhaoqiehuan li").removeClass();
         $(this).addClass("show");
-        $(".changeju>.juzhao").hide();
+        juzhao.hide();
         var index=$(this).index();
-        $(".changeju>.juzhao").eq(index).fadeIn()
+        console.log(index);
+        juzhao.eq(index).fadeIn()
     })
 
 })

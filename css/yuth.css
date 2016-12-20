@@ -1,4 +1,4 @@
-
+.movieDetail{width: 100px;height: 100px;position: absolute;right: 0;bottom: 0;background: url("../images/topRight_01.jpg") no-repeat;}
 .clear_Fix:after{content: "200B";display: block;height: 0;font-size: 0;clear: both}
 ul,ol{list-style: none}
 .content{width: 1720px;margin: 0 auto;}
@@ -11,22 +11,22 @@ ul,ol{list-style: none}
 .chIld{width: 348px;height: 471px;padding:8px; ;font-size: 0;border: 2px solid #006cad;margin: 7px;}
 .chIld img{width: 100%;height: 100%}
 .obk_M .STyle{border-color:#dddddd }
-.naMe_z p{display:inline-block;margin-right:30px;width:33px;height: 88px;border: 1px solid #000000;font-size: 20px;font-family: "华文楷体";transition: all 1s;padding-top: 20px; }
+.naMe_z p{display:inline-block;margin-right:30px;width:33px;height: 88px;border: 1px solid #000000;font-size: 20px;font-family: "华文楷体";transition: all 1s;padding-top: 20px; cursor: pointer;}
 .naMe_z p span{text-align: center;display: block;width: 100%;}
 /*左边艺人文字以及作品介绍点击*/
  .teXT_left{float: left;width: 430px;position: relative}
 .teXT_left .B_tab{position: absolute;right:20px;top:20px; }
-.teXT_left .B_tab p{float: left;margin-right:30px;width:33px;height: 108px;border: 1px solid #000000;font-size: 20px;font-family: "华文楷体";transition: all 1s; }
+.teXT_left .B_tab p{float: left;margin-right:30px;width:33px;height: 108px;border: 1px solid #000000;font-size: 20px;font-family: "华文楷体";transition: all 1s; cursor: pointer;}
 .teXT_left .B_tab p span{text-align: center;display: block;width: 100%;}
 .teXT_left .B_tab p:nth-of-type(2){padding-top: 20px;height: 88px;}
 /*上一页下一页*/
 .p_Nextp{float: right;margin-top: 50px;}
-.p_Nextp p{float: left;margin-right:30px;width:33px;height: 88px;padding-top:20px;border: 1px solid #000000;font-size: 20px;font-family: "华文楷体";}
+.p_Nextp p{float: left;margin-right:30px;width:33px;height: 88px;padding-top:20px;border: 1px solid #000000;font-size: 20px;font-family: "华文楷体";cursor: pointer;}
 .p_Nextp p span{text-align: center;display: block;width: 100%;}
-.p_Nextp p:active{background: #cf8062;color: #fff;}
+.p_Nextp p:active{background: #006cad;color: #fff;border-color: #006cad}
 .yi_l{;float:left;width:250px;margin-top: 55px;}
 .yi_l>li{width: 30px;height: 100%;float: right;font-family: "华文楷体";margin-left: 15px;font-size: 30px;}
-.moItal{position: absolute;right: 0;width: 50%;top: 0;height: 100%;background: rgba(0,0,0,.3);z-index: -1}
+.moItal{position: absolute;right: 0;width: 50%;top: 0;height: 100%;background:#e4e4e4;z-index: -1}
 /*右边剧照样式*/
 .broker-RIght{width: 860px;position: absolute;right: 0;top: -24px;}
 .broker-RIght .top{margin:0 0 0 111px;}
@@ -36,7 +36,6 @@ ul,ol{list-style: none}
 .broker-RIght .bot li{margin-left: 60px;}
 .Zhs{padding: 20px;}
 .Zhs p{text-indent: 2em}
-
 .disPLy{position: absolute;left: 0;top: 0;}
 .disPLy:nth-of-type(2){display: none}
 /*切换艺人作品*/
@@ -47,3 +46,5 @@ ul,ol{list-style: none}
 .Zhs>p{font-size: 16px;line-height: 24px;font-family: "微软雅黑";font-weight: normal}
 /*底部滑动效果*/
 footer .thisChoose{left: 370px;}
+
+
